@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
 <!-- Tracking -->
  <remote name="github1" fetch="https://github.com"/>
  <remote name="beluga" fetch="https://github.com/belugaA330"/>
