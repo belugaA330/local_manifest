@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<!-- Tracking -->
- <remote name="github1" fetch="https://github.com"/>
- <remote name="beluga" fetch="https://github.com/belugaA330"/>
   
 <!-- Trees -->
- <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="beluga" revision="lineage-20" clone-depth="1" />
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_ysl" remote="beluga" revision="lineage-20" clone-depth="1" />
- <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="beluga" revision="lineage-20" clone-depth="1" />
- <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="beluga" revision="lineage-20" clone-depth="1" />
+ <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="github" revision="lineage-20" clone-depth="1" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_ysl" remote="github" revision="lineage-20" clone-depth="1" />
+ <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="github" revision="lineage-20" clone-depth="1" />
+ <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="github" revision="lineage-20" clone-depth="1" />
  
 </manifest>
